@@ -1,11 +1,12 @@
 pipeline{
     
     agent any
-    
-    tools{
+
+// Add the tools and uncomment the following lines by removing /* and */ to enable the block. 
+/*    tools{
     
     }
-    
+*/    
     stages{
         stage('one'){
             steps{
